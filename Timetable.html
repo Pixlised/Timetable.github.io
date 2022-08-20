@@ -1,0 +1,160 @@
+<!DOCTYPE htmL>
+<html>
+<body>
+    <style>
+        body{
+            margin: 0;
+            text-align:center;
+        }
+
+        .Header {
+            margin:0;
+            background-color:rgb(186, 186, 186);
+            color:white;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        .Att {
+            text-align:center;
+            background-color:white;
+        }
+        .Brk {
+            text-align:center;
+            background-color:white;
+        }
+        table {
+            font-family:sans-serif;
+            margin:auto;
+            border-radius:20px;
+            background-color:rgb(169, 169, 169);
+        }
+        td {
+            text-align:center;
+            height:25px;
+            border-radius:5px;
+            background-color:rgb(231, 231, 231)
+        }
+        th {
+            height:25px;
+            width:100px;
+            border-radius:5px;
+            background-color:rgb(231, 231, 231);
+        }
+        td:hover {
+            background-color:white;
+        }
+
+        .topleft {
+            border-radius: 20px 5px 5px 5px;
+        }
+        .topright {
+            border-radius: 5px 20px 5px 5px;
+        }
+        .bottomleft {
+            border-radius: 5px 5px 5px 20px;
+        }
+        .bottomright {
+            border-radius: 5px 5px 20px 5px;
+        }
+
+        .BTN1 {
+            border:none;
+            text-align:center;
+            width:85%;
+            padding:0%;
+            height:5vh;
+            background-color:rgb(186, 186, 186);
+            border-radius:20px;
+            font-weight:bold;
+            font-size:15px;
+            color:white;
+        }
+
+    </style>
+    <div class="Header">
+        <h1>Grade 10 timetable</h1>
+    </div>
+    <table border="1" solid>
+        <tr>
+            <th class="topleft">&nbsp;</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th class="topright">Friday</th>
+        </tr>
+        <tr>
+            <td colspan="6" class="Att">Attendance</td>
+        </tr>
+        <tr>
+            <td>Period 1</td>
+            <td rowspan="2" onclick="document.location.href='HTMLTEST.html';">Chem</td>
+            <td>Eng</td>
+            <td rowspan="2">Bio</td>
+            <td>Eng</td>
+            <td>Maths</td>
+        </tr>
+        <tr>
+            <td>Period 2</td>
+            <td rowspan="2">Maths</td>
+            <td>Assembly</td>
+            <td rowspan="2">Chem</td>
+        </tr>
+        <tr>
+            <td>Period 3</td>
+            <td>Eng</td>
+            <td rowspan="2">ICT</td>
+            <td>Chem</td>
+        </tr>
+        <tr>
+            <td>Period 4</td>
+            <td>Maths</td>
+            <td>Chem</td>
+            <td>Chem(Free)</td>
+            <td>Maths</td>
+        </tr>
+        <tr>
+            <td colspan="6" class="Brk">Break</td>
+        </tr>
+        <tr>
+            <td>Period 5</td>
+            <td rowspan="2">Phy</td>
+            <td rowspan="2">Phy</td>
+            <td rowspan="2">Eng</td>
+            <td>Bio</td>
+            <td rowspan="2">SELC</td>
+        </tr>
+        <tr>
+            <td>Period 6</td>
+            <td>Eng</td>
+        </tr>
+        <tr>
+            <td>Period 7</td>
+            <td>Maths</td>
+            <td>ICT</td>
+            <td>ICT</td>
+            <td>Music</td>
+            <td>Eng</td>
+        </tr>
+        <tr>
+            <td>Period 8</td>
+            <td rowspan="2">Bio</td>
+            <td>PE</td>
+            <td rowspan="2">Maths</td>
+            <td rowspan="2">Maths</td>
+            <td>PE</td>
+        </tr>
+        <tr>
+            <td class="bottomleft">Period 9</td>
+            <td>Eng</td>
+            <td class="bottomright">Phy</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <a href="HTMLTEST.html"><button class="BTN1">
+        <i>Links</i>
+    </button></a>
+</body>
+</html>    
